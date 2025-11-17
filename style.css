@@ -17,4 +17,94 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    width: 27%;
+    border-radius: 10px;
+}
+.container h1{
+    color:white;
+    margin: 1rem 0px;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0px;
+}
+.container ul li{
+    border-radius: 50%;
+    padding:15px 20px;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.container ul li:hover{
+    background-color: white;
+}
+.container ul li p{
+    text-align: center;
+}
+.container .description{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.75rem;
+    margin: 1rem 0px;
+}
+.container button{
+    background-color: hsl(25, 97%, 53%);
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    transition: all 0.5s ease-in-out;
+}
+.container button:hover{
+    background-color: white;
+}
+.container img{
+    margin: 1rem 0px;
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    padding: 10px;
+    width: 13%;
+}
+.modal{
+    color: white;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.modal img{
+    display: block;
+    margin: 40px auto;
+}
+.modal p{
+    margin: 10px 0px;
+}
+.modal .size{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.modal .description{
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(216, 12%, 8%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+.modal .support{
+    line-height: 1.75rem;
+    color:hsl(217, 12%, 63%) ;
 }
