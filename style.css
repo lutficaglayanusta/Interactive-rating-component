@@ -11,12 +11,16 @@ body{
     background-color: hsl(216, 12%, 8%);
 }
 
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
 
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
     background-color: hsl(213, 19%, 18%);
     padding: 30px;
     width: 27%;
@@ -107,4 +111,20 @@ body{
 .modal .support{
     line-height: 1.75rem;
     color:hsl(217, 12%, 63%) ;
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 95%;
+    }
+    .modal{
+        width: 95%;
+    }
+    .modal .description{
+        width: 100%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1158px) {
+    .container{
+        width: 50%;
+    }
 }
