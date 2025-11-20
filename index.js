@@ -43,3 +43,8 @@ form.addEventListener("submit", (e) => {
   }
   instance.show();
 });
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Escape") {
+    instance.close()
+  }
+})
